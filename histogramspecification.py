@@ -7,9 +7,9 @@ import cv2
 import numpy as np
 import calculation as calc
 
-inp = "C:\\WORK\\PYTHON\\input2.jpg"
-ref = "C:\\WORK\\PYTHON\\reference2.jpg"
-out = "C:\\WORK\\PYTHON\\output2.jpg"
+inp = "D:\\PYTHON\\input.jpg"
+ref = "D:\\PYTHON\\reference.jpg"
+out = "D:\\PYTHON\\output.jpg"
 
 iarr = cv2.imread(inp)
 rarr = cv2.imread(ref)
